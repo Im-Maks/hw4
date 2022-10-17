@@ -1,0 +1,59 @@
+body{
+    margin: auto 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    width: 600px;
+    height: 400px;
+    margin: 150px 400px;
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+
+.mastercardb{
+    width: 250px;
+    height: 250px;
+    top: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    right: 80px;
+}
+.mastercard{
+    width: 250px;
+    height: 250px;
+    top: 60px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    left: 80px;
+}
+.mastercard2{
+    width: 250px;
+    height: 250px;
+    top: 60px;
+    right: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+.text{
+    width: 600px;
+    height: 50px;
+    font-size: 50px;
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    text-align: center;
+}
